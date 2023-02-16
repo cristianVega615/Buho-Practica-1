@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.input-form{
+    margin: 0 auto;
+    
+}
+
+.form-main{
+    width: 28vw;
+    min-width: 354px;
+    height: 32rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0, 0, 0, 0.141);
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.div-form{
+    width: max-content;
+    min-width: max-content;
+    height: 20rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+.inp-span{
+    font-size: 1.28rem;
+    display: block;
+    margin: 1rem 0;
+    letter-spacing: 0.7px;
+}
+.input-form{
+    margin-bottom: 2rem;
+    font-size: 1em;
+}
+.inp-text,
+.inp-email,
+.inp-disabled{
+    width: 20vw;
+    height: 1.5rem;
+    min-width: 250px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.inp-submit{
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+.inp-submit-enable{
+    border: none;
+    color: white;
+    background-color: rgb(86, 86, 174); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.inp-submit-enable:hover{
+    background-color: rgb(41, 41, 103); 
+}
+.input-form::placeholder{
+    padding: 0 1rem;
+}

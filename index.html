@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Semana 1</title>
+  </head>
+  <body>
+    <form action="/" class="form-main">
+      <div class="div-form">
+        <span class="inp-span">Texto</span>
+      <input
+        type="text"
+        class="inp-text input-form"
+        placeholder="Ingresar un texto"
+        pattern="[a-zA-Z ]{1,254}"
+        title="No es un número"
+      />
+      <span class="inp-span">Email</span>
+      <input
+        type="email"
+        class="inp-email input-form"
+        placeholder="Ingresar un email"
+        title="No es un email valido"
+      />
+      <span class="inp-span">Número Random</span>
+      <input
+        type="text"
+        placeholder="Número Random"
+        class="inp-disabled input-form"
+        disabled
+      />
+      <input
+        type="submit"
+        class="inp-submit input-form"
+        value="Enviar"
+        disabled
+      />
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
